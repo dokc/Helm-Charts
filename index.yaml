@@ -6,6 +6,7 @@ entries:
       home: https://github.com/dokc/Helm-Charts.git
       description: "A lightweight chart for K8ssandra operator."
       maintainers:
+
         name: Data on Kuberenetes Community
         community: https://dokcommunity.slack.com/join/shared_invite/zt-10v7uncvp-jNFwulsVWvUO0SKMDTjwAw#/shared-invite/email
       version: 0.1.0
