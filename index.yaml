@@ -8,5 +8,5 @@ entries:
       maintainers:
         name: Data on Kuberenetes Community
         community: https://dokcommunity.slack.com/join/shared_invite/zt-10v7uncvp-jNFwulsVWvUO0SKMDTjwAw#/shared-invite/email
-
+      version: 0.1.0
 generated: "2022-02-01T16:32:21.7893764+05:30"
