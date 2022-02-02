@@ -1,0 +1,32 @@
+apiVersion: v2
+
+dependencies:
+  - condition: cass-operator.enabled
+    name: cass-operator
+    repository: file://../cass-operator
+    version: 0.32.0
+  - condition: reaper-operator.enabled
+    name: reaper-operator
+    repository: file://../reaper-operator
+    version: 0.32.3
+  - condition: medusa.enabled
+    name: medusa-operator
+    repository: file://../medusa-operator
+    version: 0.32.0
+  - name: k8ssandra-common
+    repository: file://../k8ssandra-common
+    version: 0.28.4
+  - condition: kube-prometheus-stack.enabled
+    name: kube-prometheus-stack
+    repository: https://prometheus-community.github.io/helm-charts
+    version: 20.0.1
+
+description: "Provisions a simple, minimalistic K8ssandra stack. This includes Apache Cassandra (Database), Stargate (REST API), Prometheus (Metrics Middleware), and Grafana. (Data Visualization) "
+
+maintainers:
+  - name: Data on Kuberentes Community
+    url: https://dok.community
+
+name: k8s-lightweight
+type: application
+version: 0.1.0
