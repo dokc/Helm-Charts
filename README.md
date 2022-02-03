@@ -6,13 +6,13 @@ Please refer to the [contributing-guidelines](https://github.com/dokc/Helm-Chart
 
 ## What is the custom k8ssandra-lightweight operator ?
 
-This the kubernetes-operator which contains the following packages:
-    1. Apache Cassandra
-    2. Stargate 
-    3. Prometheus
-    4. Grafana
-
-This package a lightweight package
+This the kubernetes-operator which contains the following packages:\
+    1. Apache Cassandra\
+    2. Stargate\
+    3. Prometheus <br />
+    4. Grafana <br />
+    
+    This package a lightweight package
 
 ## Installation and requirement
 
