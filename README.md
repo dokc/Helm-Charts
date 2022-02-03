@@ -11,7 +11,6 @@ This the kubernetes-operator which contains the following packages:\
     2. Stargate\
     3. Prometheus <br />
     4. Grafana <br />
-    
     This package a lightweight package
 
 ## Installation and requirement
