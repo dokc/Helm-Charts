@@ -4,7 +4,7 @@ First off, thank you for considering contributing to Dok! It's people like you w
 
 - **Create an issue**: If you have noticed a bug, want to contribute features, or simply ask a question that for whatever reason you do not want to ask in the [DoK Slack workspace](https://dokcommunity.slack.com/), please [search the issue tracker](https://github.com/dokc/how-to-dok/issues) to see if someone else in the community has already created a ticket. If not, go ahead and [create an issue](https://github.com/dokc/how-to-dok/issues/new/choose).
 
-- **Add yourself**: Add yourself to the [list of contributors](CONTRIBUTORS.md) along with your first pull request.
+- **Add yourself**: Add yourself to the [list of contributors](CONTRIBUTORS.md) along with your first  pull request.
 
 This document lays out how to get you started in contributing to DoK / How To DoK, so please read on.
 
