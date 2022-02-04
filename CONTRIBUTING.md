@@ -6,6 +6,7 @@ First off, thank you for considering contributing to Dok! It's people like you w
 
 - **Add yourself**: Add yourself to the [list of contributors](CONTRIBUTORS.md) along with your first pull request.
 
+
 This document lays out how to get you started in contributing to DoK / How To DoK, so please read on.
 
 ### Fork Repositories and work in a branch
@@ -26,6 +27,7 @@ You may require a [GPG key](https://docs.github.com/en/authentication/managing-c
 This will allow you to sign off your commits.
 
 ### Please commit your code before commiting
+
 ```
 git add .
 git commit -m "add x" -s
