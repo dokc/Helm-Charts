@@ -1,6 +1,10 @@
 # dokc-helm-chart
 Custom K8ssandra operator for Data on Kuberenetes' how-to-dok project.
 
+
+## Contributing
+Please refer to the [contributing-guidelines](https://github.com/dokc/Helm-Charts/blob/master/CONTRIBUTING.md)
+
 ## What is the custom k8ssandra-lightweight operator ?
 
 This the kubernetes-operator which contains the following packages:
