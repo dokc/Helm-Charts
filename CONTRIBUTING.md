@@ -24,7 +24,6 @@ Example:
 You may require a [GPG key](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-new-gpg-key-to-your-github-account)
 
 This will allow you to sign off your commits.
-
 ### Please commit your code before commiting
 
 ```
