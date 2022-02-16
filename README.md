@@ -45,7 +45,7 @@ _Replace: < > with values_
  cassandra:
   version: < Cassandra Version Number, preferred version = 4.0.1 >  
   cassandraLibDirVolume:
-    storageClass: local-path
+    storageClass: default
     size: 5Gi
   allowMultipleNodesPerWorker: true
   heap:
