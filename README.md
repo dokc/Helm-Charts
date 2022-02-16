@@ -1,15 +1,18 @@
 # dokc-helm-chart
 Custom K8ssandra operator for Data on Kuberenetes' how-to-dok project.
 
+
+## Contributing
+Please refer to the [contributing-guidelines](https://github.com/dokc/Helm-Charts/blob/master/CONTRIBUTING.md)
+
 ## What is the custom k8ssandra-lightweight operator ?
 
-This the kubernetes-operator which contains the following packages:
-    1. Apache Cassandra
-    2. Stargate 
-    3. Prometheus
-    4. Grafana
-
-This package a lightweight package
+This the kubernetes-operator which contains the following packages:\
+    1. Apache Cassandra\
+    2. Stargate\
+    3. Prometheus <br />
+    4. Grafana <br />
+    This package a lightweight package
 
 ## Installation and requirement
 
@@ -76,7 +79,7 @@ stargate:
   
 ```
 
-To run the cluster, execute the following command: helm install -f <filename>.yaml <Instance Name (or) Cluster Name> dokc/k8s-lightweight
+To run the cluster, execute the following command: helm install -f < filename >.yaml <Instance Name (or) Cluster Name> dokc/k8s-lightweight
 
 ** The process should roughly take 4 minutes , wait for the pods to start up **
 
@@ -100,8 +103,4 @@ Disclaimer: "It may work within 4 minutes, but it is advisable to wait for 4 min
 ### Requirements:
  - CPU -> 4 Cores
  - Memory -> 8128M
-
-## Artifacthub 
-    
-<div class="artifacthub-widget" data-url="https://artifacthub.io/packages/helm/dokc-k8ssandra-lightweight/data-on-kuberenetes-k8ssandra-chart" data-theme="light" data-header="true" data-stars="true" data-responsive="true"><blockquote><p lang="en" dir="ltr"><b>Data on Kuberenetes K8ssandra Chart</b>: Provisions a simple, minimalistic K8ssandra stack. This includes Apache Cassandra (Database), Stargate (REST API), Prometheus (Metrics Middleware), and Grafana. (Data Visualization) </p>&mdash; Open in <a href="https://artifacthub.io/packages/helm/dokc-k8ssandra-lightweight/data-on-kuberenetes-k8ssandra-chart">Artifact Hub</a></blockquote></div>
 
